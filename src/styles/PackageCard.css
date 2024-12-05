@@ -1,0 +1,47 @@
+@import url("../index.css");
+
+.packageOuter{
+    font-family: var(--subTitle);
+    color: white;
+    width: 407px;
+    height: 419px;
+    background-color: #181A1C;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.packageOuter>p{
+    text-align: center;
+    opacity: 0.5;
+    font-size: .8vw;
+}
+
+.packageOuter>h3{
+    font-size: 1.3vw;
+    margin-bottom: 0;
+}
+
+.packageInner{
+    width: 368px;
+    height: 216px;
+    border-radius: 20px;
+    position: relative;
+}
+.packageInner>img{
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+button{
+    padding: 3% 6%;
+    border: none;
+    color: #ffffff;
+    background-color: var(--mainColor);
+    border-radius: 10px;
+}

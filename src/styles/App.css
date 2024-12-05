@@ -1,0 +1,7 @@
+@import url('../index.css');
+
+.test{
+    font-family: var(--heading);
+    font-size: x-large;
+    font-weight: 600;
+}

@@ -1,0 +1,17 @@
+@import url('../index.css');
+
+.btn{
+    background-color: var(--mainColor);
+    width: 100px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn>p{
+    color: white;
+    font-family: var(--subTitle);
+    font-weight: 600;
+}

@@ -1,0 +1,31 @@
+@import url("../index.css");
+
+
+.outerBox{
+    font-family: var(--subTitle);
+    width: 231px;
+    height: 213px;
+    border-radius: 20px;
+    background-color: #181A1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.innerBox{
+    width: 108px;
+    height: 108px;
+    font-weight: 500;   
+    background-color: #1F2022;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.innerBox>img{
+    width: 2.5vw;
+}
